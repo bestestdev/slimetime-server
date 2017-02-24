@@ -1,0 +1,10 @@
+{
+  "name": "sophwarellc-slimetime-server",
+  "version": "0.0.1",
+  "description": "Get Slimey",
+  "dependencies": {
+    "ws": "",
+    "redis": "",
+    "georedis": ""
+  }
+}
