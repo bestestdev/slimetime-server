@@ -4,6 +4,8 @@
 var redis = require("redis"),
     client = redis.createClient();
 var geo = require('georedis').initialize(client);
+var people = geo.addSet('people');
+var places = geo.addSet('places');
 
 const initWorld = function(cb) {
     var locationSet = {
